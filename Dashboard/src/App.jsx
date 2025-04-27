@@ -17,7 +17,7 @@ function App() {
  
   const fetchdata =async(page)=>{
     try{
-     const response = await axios.get(`http://localhost:3000/api/users`, {
+     const response = await axios.get(`https://assignment-2-dashboard.onrender.com/api/users`, {
       params: { page, search }
     }) ;
      console.log(response.data) ;
